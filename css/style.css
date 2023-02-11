@@ -1,73 +1,44 @@
-@import "./header.css";
+@import "/BSA/bulka_tv/css/header.css";
 @import "./sidenav.css";
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
+@import "./video.css";
+
+@media (max-width: 600px) {
+  .video_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+@media (max-width: 900px) {
+  .streamer_name_wrapper {
+    display: none;
+  }
+
+  .sidenav {
+    min-width: 50px;
+  }
+
+  .sideinfo {
+    display: none;
+  }
 }
-:focus,
-:active {
-  outline: none;
+
+@media (min-width: 600px) {
+  .video_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-a:focus,
-a:active {
-  outline: none;
+@media (min-width: 900px) {
+  .video_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sidenav {
+    min-width: 250px;
+  }
 }
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-family: "Miriam Libre";
-}
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-input::-ms-clear {
-  display: none;
-}
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-ul li {
-  list-style: none;
-}
-img {
-  vertical-align: top;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
+
+@media (min-width: 1200px) {
+  .video_content {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .main {
