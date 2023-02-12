@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Bulka Stream</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Miriam+Libre:regular,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="fixed_header">
+          <div class="header__logo">
+            <span class="iconify" data-icon="fa-solid:cat"></span>
+            Bulka TV
+          </div>
+          <div class="header__search search">
+            <form class="search_form">
+              <input class="search_input" type="text" placeholder="Search" />
+              <button class="search_button" type="submit"></button>
+            </form>
+            <span class="fa fa-microphone icon_microphone"></span>
+          </div>
+          <div class="header__menu menu">
+            <span
+              class="iconify icon_bell menu_bell_btn"
+              data-icon="bxs:bell"
+            ></span>
+            <div class="menu_button">
+              <span
+                class="iconify icon_paw menu_icon_paw"
+                data-icon="ion:paw"
+              ></span>
+            </div>
+            <div class="dropdown">
+              <ul class="dropdown_content">
+                <li>
+                  <span class="iconify icon_paw" data-icon="ion:paw"></span>
+                  Profile
+                </li>
+                <li>
+                  <span class="iconify" data-icon="ci:settings-filled"></span>
+                  Settings
+                </li>
+                <li>
+                  <span
+                    class="iconify"
+                    data-icon="heroicons-outline:logout"
+                  ></span>
+                  Logout
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <nav class="sidenav">
+          <div class="sidenav__streamers">
+            <ul class="streamers_list">
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione-v1:cat-face"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <span class="streamer_name">Cbb</span>
+                  <div class="live_icon_wrapper">
+                    <span
+                      class="iconify live_icon"
+                      data-icon="akar-icons:circle-fill"
+                    ></span>
+                  </div>
+                  <span
+                    class="iconify live_icon_base"
+                    data-icon="akar-icons:circle-fill"
+                  ></span>
+                  13.45K
+                </div>
+              </li>
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione:cat-face-with-wry-smile"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <div class="streamer_name">Bulka</div>
+                  <div class="live_icon_wrapper">
+                    <span
+                      class="iconify live_icon"
+                      data-icon="akar-icons:circle-fill"
+                    ></span>
+                  </div>
+                  <span
+                    class="iconify live_icon_base"
+                    data-icon="akar-icons:circle-fill"
+                  ></span>
+                  11.98K
+                </div>
+              </li>
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione:cat-face"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <div class="streamer_name">Pepper</div>
+                  101.98K
+                </div>
+              </li>
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione:grinning-cat-face"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <div class="streamer_name">Tom</div>
+                  <div class="live_icon_wrapper">
+                    <span
+                      class="iconify live_icon"
+                      data-icon="akar-icons:circle-fill"
+                    ></span>
+                  </div>
+                  <span
+                    class="iconify live_icon_base"
+                    data-icon="akar-icons:circle-fill"
+                  ></span>
+                  16.84K
+                </div>
+              </li>
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione:cat-face-with-wry-smile"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <div class="streamer_name">Duster</div>
+                  71.94K
+                </div>
+              </li>
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione:grinning-cat-face-with-smiling-eyes"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <div class="streamer_name">Joker</div>
+                  <div class="live_icon_wrapper">
+                    <span
+                      class="iconify live_icon"
+                      data-icon="akar-icons:circle-fill"
+                    ></span>
+                  </div>
+                  <span
+                    class="iconify live_icon_base"
+                    data-icon="akar-icons:circle-fill"
+                  ></span>
+                  19.8K
+                </div>
+              </li>
+              <li class="list_element">
+                <div class="streamer_avatar_wrapper">
+                  <span
+                    class="iconify streamer_avatar"
+                    data-icon="emojione:cat-face-with-wry-smile"
+                  ></span>
+                </div>
+                <div class="streamer_name_wrapper">
+                  <div class="streamer_name">Danny</div>
+                  <div class="live_icon_wrapper">
+                    <span
+                      class="iconify live_icon"
+                      data-icon="akar-icons:circle-fill"
+                    ></span>
+                  </div>
+                  <span
+                    class="iconify live_icon_base"
+                    data-icon="akar-icons:circle-fill"
+                  ></span>
+                  19.8K
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="sideinfo">
+            <div class="sideinfo_content">
+              <div class="sideinfo_text">Join the Bulka`s community!</div>
+              <div class="sideinfo_socials">
+                <span
+                  class="iconify sideinfo_socials_icons"
+                  data-icon="akar-icons:telegram-fill"
+                ></span>
+                <span
+                  class="iconify sideinfo_socials_icons"
+                  data-icon="akar-icons:instagram-fill"
+                ></span>
+                <span
+                  class="iconify sideinfo_socials_icons"
+                  data-icon="akar-icons:facebook-fill"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="video_container">
+          <div class="video">
+            <div class="video_categories">
+              <div class="video_categories_elment">All</div>
+              <div class="video_categories_elment">Food</div>
+              <div class="video_categories_elment">Music</div>
+              <div class="video_categories_elment">Humans</div>
+              <div class="video_categories_elment">Hunting</div>
+              <div class="video_categories_elment">Games</div>
+              <div class="video_categories_elment">Comedies</div>
+              <div class="video_categories_elment">Apartment</div>
+              <div class="video_categories_elment">Vacation</div>
+              <div class="video_categories_elment">Politics</div>
+              <div class="video_categories_elment">Travelling</div>
+              <div class="video_categories_elment">Fashion</div>
+              <div class="video_categories_elment">Cooking</div>
+            </div>
+            <div class="video_carusel">
+              <figure class="icon-cards mt-3">
+                <div class="icon-cards__content">
+                  <div
+                    class="icon-cards__item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="carousel__image_place">
+                      <img
+                        class="carousel__image"
+                        src="./img/carousel/1.jpg"
+                        alt="carousel"
+                      />
+                      <span
+                        class="iconify icon_paw video_icon_paw"
+                        data-icon="ion:paw"
+                      ></span>
+                      <div class="video_live_icon">Live</div>
+                      <div class="video_watchers_count">13.45K viewers</div>
+                    </div>
+                    <div class="carousel_info">
+                      <div class="carousel_info_wrapper">
+                        <span
+                          class="iconify carousel__video_streamer_avatar"
+                          data-icon="emojione:cat-face"
+                        ></span>
+                        <div class="carousel__video_name_wrapper">
+                          <span class="carousel__video_name">Box Sitter</span>
+                          <span class="carousel__video_streamer_name"
+                            >Pepper</span
+                          >
+                        </div>
+                      </div>
+                      <span>Looking out of my box.</span>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-cards__item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="carousel__image_place">
+                      <img
+                        class="carousel__image"
+                        src="./img/carousel/2.jpg"
+                        alt="carousel"
+                      />
+                      <span
+                        class="iconify icon_paw video_icon_paw"
+                        data-icon="ion:paw"
+                      ></span>
+                      <div class="video_live_icon">Live</div>
+                      <div class="video_watchers_count">13.45K viewers</div>
+                    </div>
+
+                    <div class="carousel_info">
+                      <div class="carousel_info_wrapper">
+                        <span
+                          class="iconify carousel__video_streamer_avatar"
+                          data-icon="emojione:cat-face"
+                        ></span>
+                        <div class="carousel__video_name_wrapper">
+                          <span class="carousel__video_name">Flee</span>
+                          <span class="carousel__video_streamer_name"
+                            >Pepper</span
+                          >
+                        </div>
+                      </div>
+                      <span>Flee in my nose</span>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-cards__item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="carousel__image_place">
+                      <img
+                        class="carousel__image"
+                        src="./img/carousel/3.jpg"
+                        alt="carousel"
+                      />
+                      <span
+                        class="iconify icon_paw video_icon_paw"
+                        data-icon="ion:paw"
+                      ></span>
+                      <div class="video_live_icon">Live</div>
+                      <div class="video_watchers_count">13.45K viewers</div>
+                    </div>
+                    <div class="carousel_info">
+                      <div class="carousel_info_wrapper">
+                        <span
+                          class="iconify carousel__video_streamer_avatar"
+                          data-icon="emojione:cat-face"
+                        ></span>
+                        <div class="carousel__video_name_wrapper">
+                          <span class="carousel__video_name">Chill</span>
+                          <span class="carousel__video_streamer_name"
+                            >Dany</span
+                          >
+                        </div>
+                      </div>
+                      <span>On the Chill, on the Rasslabon!!!</span>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-cards__item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="carousel__image_place">
+                      <img
+                        class="carousel__image"
+                        src="./img/carousel/4.jpg"
+                        alt="carousel"
+                      />
+                      <span
+                        class="iconify icon_paw video_icon_paw"
+                        data-icon="ion:paw"
+                      ></span>
+                      <div class="video_live_icon">Live</div>
+                      <div class="video_watchers_count">13.45K viewers</div>
+                    </div>
+                    <div class="carousel_info">
+                      <div class="carousel_info_wrapper">
+                        <span
+                          class="iconify carousel__video_streamer_avatar"
+                          data-icon="emojione:cat-face"
+                        ></span>
+                        <div class="carousel__video_name_wrapper">
+                          <span class="carousel__video_name">Smile</span>
+                          <span class="carousel__video_streamer_name"
+                            >Pinny</span
+                          >
+                        </div>
+                      </div>
+                      <span>Take a little smile.</span>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-cards__item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="carousel__image_place">
+                      <img
+                        class="carousel__image"
+                        src="./img/carousel/5.jpg"
+                        alt="carousel"
+                      />
+                      <span
+                        class="iconify icon_paw video_icon_paw"
+                        data-icon="ion:paw"
+                      ></span>
+                      <div class="video_live_icon">Live</div>
+                      <div class="video_watchers_count">13.45K viewers</div>
+                    </div>
+                    <div class="carousel_info">
+                      <div class="carousel_info_wrapper">
+                        <span
+                          class="iconify carousel__video_streamer_avatar"
+                          data-icon="emojione:cat-face"
+                        ></span>
+                        <div class="carousel__video_name_wrapper">
+                          <span class="carousel__video_name">Fatboy...</span>
+                          <span class="carousel__video_streamer_name"
+                            >Pepper</span
+                          >
+                        </div>
+                      </div>
+                      <span>Where is my chereshnya???</span>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-cards__item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="carousel__image_place">
+                      <img
+                        class="carousel__image"
+                        src="./img/carousel/6.jpg"
+                        alt="carousel"
+                      />
+                      <span
+                        class="iconify icon_paw video_icon_paw"
+                        data-icon="ion:paw"
+                      ></span>
+                      <div class="video_live_icon">Live</div>
+                      <div class="video_watchers_count">13.45K viewers</div>
+                    </div>
+                    <div class="carousel_info">
+                      <div class="carousel_info_wrapper">
+                        <span
+                          class="iconify carousel__video_streamer_avatar"
+                          data-icon="emojione:cat-face"
+                        ></span>
+                        <div class="carousel__video_name_wrapper">
+                          <span class="carousel__video_name">Waiter</span>
+                          <span class="carousel__video_streamer_name"
+                            >Pepper</span
+                          >
+                        </div>
+                      </div>
+                      <span>I see the best future!!!</span>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="video_body">
+              <div class="video_content">
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/1.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_live_icon">Live</div>
+                    <div class="video_watchers_count">13.45K viewers</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione-v1:cat-face"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name">I believe I can fly</span>
+                      <span class="video_streamer_name">Cbb</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/2.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_live_icon">Live</div>
+                    <div class="video_watchers_count">11.98K viewers</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione:cat-face-with-wry-smile"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name">Freesyler... yeah baby!!!</span>
+                      <span class="video_streamer_name">Bulka</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/3.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_watchers_count">33:45</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione:cat-face"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name"
+                        >let`s cook some shaverma cat</span
+                      >
+                      <span class="video_streamer_name">Pepper</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/4.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_live_icon">Live</div>
+                    <div class="video_watchers_count">16.84K viewers</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione:grinning-cat-face"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name">I`ll tell ya about diet</span>
+                      <span class="video_streamer_name">Tom</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/5.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_watchers_count">18:23</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione:cat-face-with-wry-smile"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name">Nice and Pretty</span>
+                      <span class="video_streamer_name">Duster</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/6.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_live_icon">Live</div>
+                    <div class="video_watchers_count">19.8K viewers</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione:grinning-cat-face-with-smiling-eyes"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name">Look where i`m today</span>
+                      <span class="video_streamer_name">Joker</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video_element">
+                  <div class="video_place">
+                    <a href="">
+                      <img src="./img/7.jpg" alt="" class="img_link" />
+                    </a>
+                    <span
+                      class="iconify icon_paw video_icon_paw"
+                      data-icon="ion:paw"
+                    ></span>
+                    <div class="video_live_icon">Live</div>
+                    <div class="video_watchers_count">13.45K viewers</div>
+                  </div>
+                  <div class="video_info">
+                    <span
+                      class="iconify video_streamer_avatar"
+                      data-icon="emojione:cat-face-with-wry-smile"
+                    ></span>
+                    <div class="video_name_wrapper">
+                      <span class="video_name">Friends will be friends</span>
+                      <span class="video_streamer_name">Dnny</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class="footer">
+              <span class="footer_text">Inspired bu Kittisaurus</span>
+              <span class="iconify" data-icon="akar-icons:youtube-fill"></span>
+            </footer>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
