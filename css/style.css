@@ -1,6 +1,7 @@
 @import "/BSA/bulka_tv/css/header.css";
 @import "./sidenav.css";
 @import "./video.css";
+@import "./carousele.css";
 
 @media (max-width: 600px) {
   .video_content {
@@ -19,11 +20,19 @@
   .sideinfo {
     display: none;
   }
+  .video_carusel {
+    position: absolute;
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 600px) {
   .video_content {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .icon-cards__item {
+    max-width: 300px;
+    max-height: 197px;
   }
 }
 @media (min-width: 900px) {
@@ -33,11 +42,20 @@
   .sidenav {
     min-width: 250px;
   }
+
+  .icon-cards__item {
+    max-width: 340px;
+    max-height: 223px;
+  }
 }
 
 @media (min-width: 1200px) {
   .video_content {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .icon-cards__item {
+    max-width: 380px;
+    max-height: 250px;
   }
 }
 
