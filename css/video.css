@@ -15,6 +15,7 @@
 
 .video_categories {
   height: 60px;
+  margin-bottom: 15px;
   display: grid;
   grid-template-columns: repeat(13, auto);
   grid-column-gap: 15px;
@@ -35,6 +36,13 @@
   padding: 10px;
   background-color: rgb(237, 237, 237);
 }
+
+.video_categories_elment:nth-child(1) {
+  background-color: #ffc712;
+  color: aliceblue;
+  border-color: #ffc712;
+}
+
 .video_categories_elment:hover {
   cursor: pointer;
   background-color: lightgrey;
@@ -44,12 +52,15 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+
 .video_body {
   overflow-y: scroll;
 }
+
 .video_body::-webkit-scrollbar {
   display: none;
 }
+
 .video_icon_paw {
   opacity: 0;
   font-size: 3rem;
@@ -65,6 +76,7 @@
 .video_place {
   position: relative;
 }
+
 .video_place:hover .video_icon_paw {
   opacity: 1;
   animation: fadein 0.5s ease-in;
@@ -108,7 +120,6 @@ a:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(icon-path);
   opacity: 0;
 }
 
@@ -185,6 +196,7 @@ a:hover:after {
 .video_name {
   font-weight: 600;
   margin-left: 5px;
+  transition: 0.5s;
 }
 .video_name:hover {
   color: cornflowerblue;
@@ -213,7 +225,9 @@ a:hover:after {
   margin-top: auto;
   font-size: 1.2rem;
   font-weight: 600;
+  padding: 10px 0;
 }
+
 .footer:hover {
   cursor: pointer;
 }
